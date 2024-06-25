@@ -1,0 +1,12 @@
+# Use an existing Ubuntu image as a base
+FROM ubuntu:latest
+
+# Update package lists
+RUN apt-get update
+
+# Install any necessary packages or dependencies
+# Example: Install curl
+RUN apt-get install -y curl
+
+# Run a command when the container starts
+CMD ["bash"]
