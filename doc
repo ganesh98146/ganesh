@@ -10,3 +10,7 @@ RUN apt-get install -y curl
 
 # Run a command when the container starts
 CMD ["bash"]
+
+
+
+sudo chmod 777 /var/run/docker.sock
